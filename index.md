@@ -5,6 +5,8 @@
 layout: home
 ---
 
+<a href="/.auth/login/github">Login</a>
+
 <ul>
   {% for post in site.posts %}
     <li>
