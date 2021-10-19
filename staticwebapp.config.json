@@ -1,12 +1,6 @@
 {
     "routes": [
         {
-            "route": "/*",
-            "allowedRoles": [
-                "authenticated"
-            ]
-        },
-        {
             "route": "/login",
             "redirect": "/.auth/login/github"
         },
@@ -17,6 +11,12 @@
         {
             "route": "/.auth/login/twitter",
             "statusCode": 404
+        },
+        {
+            "route": "/*",
+            "allowedRoles": [
+                "authenticated"
+            ]
         }
     ],
     "responseOverrides": {
