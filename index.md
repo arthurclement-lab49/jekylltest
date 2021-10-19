@@ -6,11 +6,3 @@ layout: home
 ---
 
 <a href="/.auth/login/github?post_login_redirect_uri=https://thankful-stone-043289c00.azurestaticapps.net/index-auth.html">Login</a>
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>

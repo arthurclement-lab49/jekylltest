@@ -5,7 +5,7 @@
 layout: home
 ---
 
-<a href="/.auth/logout/github">Logout</a>
+<a href="/.auth/logout">Logout</a>
 
 <ul>
   {% for post in site.posts %}
